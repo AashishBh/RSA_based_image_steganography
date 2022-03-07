@@ -80,8 +80,6 @@ def encrypt(pk, plaintext):
         (ord(char) ** key) % n \
             for char in plaintext]
     # return the array of bytes
-    print(type(cipher))
-    print(cipher)
     return cipher
 
 '''
